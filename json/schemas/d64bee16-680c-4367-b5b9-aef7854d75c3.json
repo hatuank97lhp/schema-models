@@ -1,0 +1,16 @@
+{
+	"@name": "abc",
+	"@type": "schema",
+	"@context": [],
+	"_id": "642bded3c4f2073fe2e5a2e6",
+	"address": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"gender": {
+		"@id": "std-pos:val-2",
+		"@type": "std:str"
+	},
+	"@hash": "177034199549365645655736733645539739664",
+	"@id": "d64bee16-680c-4367-b5b9-aef7854d75c3"
+}
