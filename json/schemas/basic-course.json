@@ -1,0 +1,19 @@
+{
+	"@name": "Basic course certificate",
+	"@type": "schema",
+	"@context": [],
+	"@id": "basic-course",
+	"certificate-id": {
+		"@id": "std-pos:idx-1",
+		"@type": "std:str"
+	},
+	"name": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"result": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"@hash": "123123"
+}
