@@ -1,0 +1,42 @@
+{
+	"@name": "Basic membership",
+	"@type": "schema",
+	"@id": "32ce9eae-cebf-46ed-8015-e09e3c873f20",
+	"@context": [
+		"https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/ziden-general-context.json"
+	],
+	"_id": "642e2dc5399ba2c54e02cae2",
+	"membershipId": {
+		"@id": "std-pos:idx-1",
+		"@type": "std:str"
+	},
+	"role": {
+		"@id": "std-pos:idx-1",
+		"@type": "zc:role"
+	},
+	"name1": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"name2": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"name3": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"name4": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"name5": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"name6": {
+		"@id": "std-pos:val-1",
+		"@type": "std:str"
+	},
+	"@hash": "219460556611878922573878641058006251235"
+}
