@@ -1,1 +1,35 @@
-{"@name":"Basic course certificate","@type":"schema","@context":[],"@id":"1231-abca-1122-aabb","certificate-id":{"@id":"std-pos:idx-1","@type":"std:str"},"name":{"@id":"std-pos:val-1","@type":"std:str"},"result":{"@id":"std-pos:val-1","@type":"std:str"},"@hash":"123123"}
+{
+  "@name": "Vietnam Identity",
+  "@type": "schema",
+  "@context": [],
+  "idType": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "documentId": {
+    "@id": "std-pos:idx-1",
+    "@type": "std:str"
+  },
+  "name": {
+    "@id": "std-pos:idx-2",
+    "@type": "std:str"
+  },
+  "dob": {
+    "@id": "std-pos:idx-2",
+    "@type": "std:date"
+  },
+  "sex": {
+    "@id": "std-pos:val-1",
+    "@type": "std:str"
+  },
+  "nationality": {
+    "@id": "std-pos:val-1",
+    "@type": "std:str"
+  },
+  "addresses": {
+    "@id": "std-pos:val-2",
+    "@type": "std:str"
+  },
+  "@hash": "211898093732723506287556830090632709465",
+  "@id": "807622f7-dbe5-41ce-81c9-67414977ccc2"
+}
