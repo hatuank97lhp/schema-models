@@ -1,0 +1,35 @@
+{
+	"@name": "KYC Form",
+	"@type": "schema",
+	"@id": "1010011",
+	"@hash": "101011",
+	"@context": [
+		"https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/us-document-id.json",
+		"https://raw.githubusercontent.com/ziden-dev/schema-models/main/json/contexts/country-code-iso-3166.json"
+	],
+	"name": {
+		"@id": "std-pos:val-2",
+		"@type": "std:str"
+	},
+	"address": {
+		"@id": "std-pos:val-1",
+		"@type": "usdi:address"
+	},
+	"gender": {
+		"@id": "std-pos:val-2",
+		"@type": "usdi:gender"
+	},
+	"nationality": {
+		"@id": "std-pos:idx-1",
+		"@type": "cc3166:numeric-code"
+	},
+	"country-of-residence": {
+		"@id": "std-pos:idx-1",
+		"@type": "cc3166:numeric-code"
+	},
+	"date-of-birth": {
+		"@id": "std-pos:idx-2",
+		"@type": "std:date"
+	},
+	"@required": []
+}
